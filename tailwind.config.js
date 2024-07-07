@@ -13,9 +13,8 @@ export default {
     colors: {
       white: colors.white,
       black: colors.black, /* text 2 dark */
-      'light': '#D37643', /* primary light */
       'white-200': '#FAFAFA',
-      'secondary': '#FEFAF1',
+      'secondary': '#F5F5F5',
       green: '#00FF66',
       blue: {
         100: 'F5F5F5',

@@ -1,8 +1,11 @@
+import { delivery, customer, shield_tick, phone, computers, head_phone, camera, game_pad,
+  smart_watch, woman, speaker, perfume, playstation
+} from "./assets"
+
 export const headerAd = {
   discount: '50%',
   text: 'Summer Sale For All Swim Suits And Free Express Delivery',
   link: '/',
-  linkText: 'ShopNow'
 }
 
 export const navLinks = [
@@ -10,6 +13,28 @@ export const navLinks = [
   {name: 'Contact', to: '/contact'},
   {name: 'About', to: '/about'},
   {name: 'Signup', to: '/signup'},
+]
+
+export const categories = [
+  {name: 'Phones', img: phone},
+  {name: 'Computers', img: computers},
+  {name: 'SmartWatch', img: smart_watch},
+  {name: 'Camera', img: camera},
+  {name: 'HeadPhones', img: head_phone},
+  {name: 'Gaming', img: game_pad},
+]
+
+export const newArrival = [
+  {img: playstation, title: 'PlayStation 5', text: 'Black and White version of the PS5 coming out on sale.'},
+  {img: woman, title: 'Women’s Collections', text: 'Featured woman collections that give you another vibe.'},
+  {img: speaker, title: 'Speakers', text: 'Amazon wireless speakers'},
+  {img: perfume, title: 'Perfume', text: 'GUCCI INTENSE OUD EDP'},
+]
+
+export const servicesInfo = [
+  {img: delivery, title: 'FREE AND FAST DELIVERY', text: 'Free delivery for all orders over $140'},
+  {img: customer, title: '24/7 CUSTOMER SERVICE', text: 'Friendly 24/7 customer support'},
+  {img: shield_tick, title: 'MONEY BACK GUARANTEE', text: 'We reurn money within 30 days'},
 ]
 
 export const footerLinks = [

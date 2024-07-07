@@ -11,7 +11,7 @@ const TopHeader = () => {
           <p className='flex items-center gap-2'>
             <span>{text} {discount && `- OFF ${discount}!`}</span>
             <Link className='underline underline-offset-1 font-semibold' to={link}>
-              {linkText}
+              Show Now
             </Link>
           </p>
           <select name="language" className='bg-black px-6 max-md:hidden outline-none'>

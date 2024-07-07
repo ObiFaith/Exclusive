@@ -1,10 +1,14 @@
-import { Breadcrumb } from ".."
+import { Breadcrumb, BrowseCategory, NewArrival } from ".."
+import { Services } from ".."
 
 const Home = () => {
   return (
-    <div>
-      <Breadcrumb parent='Home' page='NotFound' />
-    </div>
+    <>
+      {/* <Breadcrumb parent='Home' page='NotFound' /> */}
+      <BrowseCategory />
+      <NewArrival />
+      <Services />
+    </>
   )
 }
 
