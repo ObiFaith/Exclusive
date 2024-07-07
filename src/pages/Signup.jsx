@@ -2,11 +2,12 @@ import * as Yup from 'yup';
 import { ErrorMessage, Field, Form, Formik } from 'formik';
 import { google, side_image } from '../assets';
 import { BtnPrimary } from '..';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/auth';
 
 const Signup = () => {
-	const {signup} = useAuth()
+	const {signup, user} = useAuth()
+	const navigate = useNavigate()
 	const signupSchema = Yup.object().shape({
 		username: Yup.string().required('Name is required'),
 		emailOrPhone: Yup.string()
@@ -42,6 +43,7 @@ const Signup = () => {
 						onSubmit={(values, { setSubmitting }) => {
 							signup(values.email, values.password)
 							setSubmitting(false);
+							if (user) navigate('/login')
 						}}
 					>
 						{() => <Form className='max-md:w-2/3 max-sm:w-full max-md:mx-auto'>

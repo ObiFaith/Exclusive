@@ -2,11 +2,12 @@ import * as Yup from 'yup';
 import { ErrorMessage, Field, Form, Formik } from 'formik';
 import { side_image } from '../assets';
 import { BtnPrimary } from '..';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/auth';
 
 const Login = () => {
-	const {login} = useAuth()
+	const {login, user} = useAuth()
+	const navigate = useNavigate()
 	const loginSchema = Yup.object().shape({
 		emailOrPhone: Yup.string()
 			.required('Email or phone number is required')
@@ -39,6 +40,7 @@ const Login = () => {
 					onSubmit={(values, { setSubmitting }) => {
 						login(values.email, values.password)
 						setSubmitting(false);
+						if (user) navigate('/')
 					}}
 				>
 					{() => <Form className='max-md:w-2/3 max-sm:w-full max-md:mx-auto'>
