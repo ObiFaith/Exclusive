@@ -3,20 +3,25 @@ import send from './icons/send.svg';
 import heart from './icons/heart.svg';
 import phone from './icons/phone.svg';
 import woman from './images/woman.png';
+import chair from './images/chair.png';
 import camera from './icons/camera.svg';
 import search from './icons/search.svg';
 import google from './icons/google.svg';
 import filled from './icons/filled.svg';
+import laptop from './images/laptop.png';
 import preview from './icons/preview.svg';
 import twitter from './icons/twitter.svg';
+import gamepad from './images/gamepad.png';
 import qr_code from './images/qr_code.png';
 import speaker from './images/speaker.png';
 import perfume from './images/perfume.png';
+import monitor from './images/monitor.png';
 import linkedin from './icons/linkedin.svg';
 import facebook from './icons/facebook.svg';
 import delivery from './icons/delivery.svg';
 import customer from './icons/customer.svg';
 import game_pad from './icons/game_pad.svg';
+import keyboard from './images/keyboard.png';
 import headphone from './icons/headphone.svg';
 import instagram from './icons/instagram.svg';
 import icon_menu from './icons/icon_menu.svg';
@@ -39,5 +44,5 @@ export const socialIcons = [facebook, twitter, instagram, linkedin]
 export { cart, heart, search, send, app_store, qr_code, google_play, icon_menu, icon_close, side_image, google,
   headphone, delivery, customer, shield_tick, arrow_left, arrow_right, phone, computers, head_phone, camera,
   game_pad, smart_watch, woman, speaker, perfume, playstation, half_filled, not_filled, heart_small, filled,
-  preview,
+  preview, keyboard, monitor, gamepad, chair, laptop
 }

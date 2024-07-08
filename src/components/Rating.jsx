@@ -5,7 +5,7 @@ const Rating = ({ rating }) => {
 	const filledCount = Math.floor(rating);
 
 	return (
-		<div>
+		<div className='flex *:w-4'>
 			{[...Array(5)].map((_, i) =>
 				filledCount > i ? (
 					<img key={i} src={filled} alt="filled" />
