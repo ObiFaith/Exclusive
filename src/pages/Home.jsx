@@ -1,10 +1,10 @@
-import { Breadcrumb, BrowseCategory, NewArrival } from ".."
+import { BrowseCategory, FlashSales, NewArrival } from ".."
 import { Services } from ".."
 
 const Home = () => {
   return (
     <>
-      {/* <Breadcrumb parent='Home' page='NotFound' /> */}
+      <FlashSales />
       <BrowseCategory />
       <NewArrival />
       <Services />

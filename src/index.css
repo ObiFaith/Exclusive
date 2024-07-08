@@ -18,13 +18,13 @@ body {
 section + section {@apply mt-[70px]}
 
 @layer utilities{
-  .btn-sm{@apply py-[10px]}
   .border-radius{@apply rounded-[4px]}
 }
 
 @layer components {
   .btn{@apply py-4 px-12 border-radius font-medium outline-none}
   .btn-primary {@apply text-white bg-red-400 hover:bg-red-200}
+  .btn-accent{@apply text-black bg-green}
   .btn-secondary {@apply text-black hover:text-dark-200 border border-black/50}
   .input{@apply bg-white-200 placeholder:text-xs text-sm py-2 pl-5 pr-3 border-radius outline-none}
 }

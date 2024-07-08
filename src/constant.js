@@ -24,6 +24,25 @@ export const categories = [
   {name: 'Gaming', img: game_pad},
 ]
 
+export const products = [
+  {name: 'HAVIT HV-G92 Gamepad', img: '', price: 120, newPrice: 160, rating: 5, ratingNo: 88, discount: 40, status: 'New', colors: [], section: 'flashSales'},
+  {name: 'AK-900 Wired Keyboard', img: '', price: 960, newPrice: 1160, rating: 4, ratingNo: 75, discount: 35, status: '', colors: [], section: 'flashSales'},
+  {name: 'IPS LCD Gaming Monitor', img: '', price: 370, newPrice: 400, rating: 5, ratingNo: 99, discount: 30, status: '', colors: [], section: 'flashSales'},
+  {name: 'S-Series Comfort Chair', img: '', price: 375, newPrice: 400, rating: 4.5, ratingNo: 99, discount: 25, status: '', colors: [], section: 'flashSales'},
+  {name: 'ASUS FHD Gaming Laptop', img: '', price: 375, newPrice: 400, rating: 4.5, ratingNo: 88, discount: 25, status: '', colors: [], section: 'flashSales'},
+  {name: '', img: '', price: '', newPrice: '', rating: 0, ratingNo: '', discount: 0, status: '', colors: []},
+  {name: '', img: '', price: '', newPrice: '', rating: 0, ratingNo: '', discount: 0, status: '', colors: []},
+  {name: '', img: '', price: '', newPrice: '', rating: 0, ratingNo: '', discount: 0, status: '', colors: []},
+  {name: '', img: '', price: '', newPrice: '', rating: 0, ratingNo: '', discount: 0, status: '', colors: []},
+  {name: '', img: '', price: '', newPrice: '', rating: 0, ratingNo: '', discount: 0, status: '', colors: []},
+  {name: '', img: '', price: '', newPrice: '', rating: 0, ratingNo: '', discount: 0, status: '', colors: []},
+  {name: '', img: '', price: '', newPrice: '', rating: 0, ratingNo: '', discount: 0, status: '', colors: []},
+  {name: '', img: '', price: '', newPrice: '', rating: 0, ratingNo: '', discount: 0, status: '', colors: []},
+  {name: '', img: '', price: '', newPrice: '', rating: 0, ratingNo: '', discount: 0, status: '', colors: []},
+  {name: '', img: '', price: '', newPrice: '', rating: 0, ratingNo: '', discount: 0, status: '', colors: []},
+  {name: '', img: '', price: '', newPrice: '', rating: 0, ratingNo: '', discount: 0, status: '', colors: []},
+]
+
 export const newArrival = [
   {img: playstation, title: 'PlayStation 5', text: 'Black and White version of the PS5 coming out on sale.'},
   {img: woman, title: 'Women’s Collections', text: 'Featured woman collections that give you another vibe.'},
