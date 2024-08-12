@@ -1,7 +1,10 @@
 import Home from './pages/Home';
+import About from './pages/About';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Card from './components/Card';
+import Teams from './sections/Teams';
+import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -21,5 +24,5 @@ import { Btn, BtnPrimary, BtnSecondary } from './components/Buttons';
 
 export { Home, Login, Signup, Header, Footer, NotFound, TopHeader, Breadcrumb, Btn, BtnPrimary, BtnSecondary,
   Section, Services, BrowseCategory, SectionTitle, SectionHeading, NewArrival, Card, FlashSales, BestSelling,
-  ExploreProduct, Rating
+  ExploreProduct, Rating, Contact, About, Teams
  }

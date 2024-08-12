@@ -10,7 +10,7 @@ const FlashSales = () => {
         <SectionTitle title='Today’s' />
         <SectionHeading carousel={true} heading='Flash Sales' />
       </div>
-      <div className="flex gap-7">
+      <div className="flex gap-7 *:min-w-[270px]">
         {salesProds.map((product, index) => <Card key={index} {...product} />)}
       </div>
       <div className="text-center pt-[60px] pb-5"><Btn to='/products' name='View All Products' /></div>

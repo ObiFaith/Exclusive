@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <>
       <FlashSales />
-      <BestSelling />
       <BrowseCategory />
+      <BestSelling />
       <NewArrival />
       <Services />
     </>

@@ -8,7 +8,7 @@ const BestSelling = () => {
     <Section>
       <SectionTitle title='This Month' />
       <SectionHeading to="/products" btnName='View All' heading='Best Selling Products' />
-      <div className="flex gap-7 justify-between">
+      <div className="grid max-sm:grid-cols-1 grid-cols-2 lg:grid-cols-4 gap-7">
         {bestProds.map((product, index) => <Card key={index} {...product} />)}
       </div>
     </Section>

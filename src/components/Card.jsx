@@ -1,11 +1,10 @@
-import { Btn } from "./Buttons"
-import { preview, heart_small } from "../assets"
 import { Rating } from ".."
+import { preview, heart_small } from "../assets"
 
 const Card = ({btn = false, name, img, price, newPrice, rating, ratingNo, discount, status, color }) => {
   return (
     <div className="border-radius grid gap-4">
-      <div className="p-3 shadow-sm min-h-[250px] min-w-[270px]" style={{background: `#F5F5F5 url(${img}) no-repeat center`}}>
+      <div className="p-3 shadow-sm min-h-[250px]" style={{background: `#F5F5F5 url(${img}) no-repeat center`}}>
         <div className="flex items-start">
           {discount > 0 && <span className="px-3 py-1 btn-primary border-radius">-{discount}%</span>}
 					{(!discount && status) && <span className="btn btn-accent">{discount}</span>}

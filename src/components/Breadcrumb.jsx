@@ -5,7 +5,7 @@ const Breadcrumb = ({parent, page}) => {
         <span>{parent}</span>
         <span>/</span>
       </div>
-      <span className="text-black">{page}</span>
+      <span className="text-black font-medium">{page}</span>
     </div>
   )
 }
